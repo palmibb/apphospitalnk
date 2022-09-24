@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from apphospitalbk.models import User
+from apphospitalbk.models import usuario
 from apphospitalbk.models import Account
 from apphospitalbk.serializers.accountSerializer import AccountSerializer
 
