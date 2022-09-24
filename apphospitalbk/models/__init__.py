@@ -5,7 +5,3 @@ from .medico import Medico
 from .historia_clinica import HistoriaClinica
 from .medico_paciente import MedicoPaciente
 from .signosvitales import SignosVitales
-
-
-
-
