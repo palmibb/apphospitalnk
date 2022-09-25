@@ -4,11 +4,11 @@ from rest_framework.response import Response
 from rest_framework_simplejwt.backends import TokenBackend
 from rest_framework.permissions import IsAuthenticated
 
-from apphospitalbk.models import usuario
+from apphospitalbk.models.usuario import Usuario
 from apphospitalbk.serializers.usuarioSerializer import UsuarioSerializer
 
-class UserDetailView(generics.RetrieveAPIView):
-    queryset = usuario.objects.all()
+class UsuarioDetailView(generics.RetrieveAPIView):
+    queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
     permission_classes = (IsAuthenticated,)
 

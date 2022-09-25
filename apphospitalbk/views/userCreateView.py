@@ -4,9 +4,9 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 from apphospitalbk.serializers.usuarioSerializer import UsuarioSerializer
 
-class UserCreateView(views.APIView):
+class UsuarioCreateView(views.APIView):
     def post(self, request, *args, **kwargs):
-        serializer = UserSerializer(data=request.data)
+        serializer = UsuarioSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
 
