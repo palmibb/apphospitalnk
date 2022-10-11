@@ -103,10 +103,10 @@ WSGI_APPLICATION = 'apphospital.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'd3go2p0je62gf8',
-            'USER': 'wdezachxuexptw',
-            'PASSWORD': '37b5ea528714cc0e02fc8c6de8e48c553c360bc38dc13a19c00881b0a10cedbd',
-            'HOST': 'ec2-3-214-2-141.compute-1.amazonaws.com',
+            'NAME': 'd5bt8o3p3gnvpj',
+            'USER': 'xqcqmomaatorda',
+            'PASSWORD': 'b71edd80e82c0185bd6e3018c386e59523a468c57b7aa3148254bef9da0dff1b',
+            'HOST': 'ec2-3-229-165-146.compute-1.amazonaws.com',
             'PORT': '5432',
     }
 }

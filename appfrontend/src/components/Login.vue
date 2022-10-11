@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import axion from 'axios';
+import axios from 'axios';
 
 export default {
 
